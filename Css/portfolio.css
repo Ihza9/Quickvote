@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* header */
+header {
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-image: url(/Images/Portofolio.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h2 {
+    padding-top: 200px;
+    font-size: 5vmin;
+    color: aliceblue;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* .navbar */
+.navbar {
+    padding: 15px 0px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.current,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+    color: #ff0000;
+    border-bottom: 3px solid #f80410;
+}
+
+#navbarResponsive {
+    z-index: 999;
+}
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    float: 	left;
+    margin-top: 12px;
+    outline: none;
+}
+
+.navbar .navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.navbar .navbar-nav .nav-item {
+    margin: 0px 15px;
+}
+.navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+/* .about */
+ .about {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  
+  .about h1 {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about .info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 50px;
+    row-gap: 50px;
+  }
+  
+  .about .info .box {
+    text-align: center;
+  }
+  
+  .about .info .box h3 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .about .info .box h1 {
+    font-size: 50px;
+    color:bisque;
+  }
+  
+  section {
+    width: 80%;
+    margin: 80 px auto;
+  }
+  .title {
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+  }
+
+  
+/* Web Development */
+  
+.services {
+    margin-top: 60px;
+}
+
+.services h2 {
+    text-align: center; 
+}
+.service-item img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.service-item .down-content {
+    background-color: #ddcbcb;
+    padding: 30px;
+}
+
+.service-item .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+.service-item .down-content p {
+    margin-bottom: 20px;
+}
+
+ /* UI/UX*/
+  
+.servicess {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.servicess h2 {
+    text-align: center; 
+}
+
+.service-item2 img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.service-item2 .down-content {
+    background-color: #ddcbcb;
+    padding: 30px;
+}
+
+.service-item2 .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+.service-item2 .down-content p {
+    margin-bottom: 20px;
+}
+
+/* Sub-footer Style */
+  
+.sub-footer {
+    background-color: #343434;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.sub-footer p {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+/* Footer */
+footer {
+    background-color: #232323;
+    padding: 80px 0px;
+    color: #fff;
+    
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-bottom: 35px;
+}
+footer p {
+    color: #fff;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+  }
+  
+footer ul.social-icons {
+    margin-top: 25px;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+footer ul.social-icons li:last-child {
+    margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    background-color: #fff;
+    color: #232323;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+    background-color: #fa0000;
+}
+
+footer ul.menu-list li {
+    margin-bottom: 13px;
+}
+
+footer ul.menu-list li:last-child {
+    margin-bottom: 0px;
+}
+
+footer ul.menu-list li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+footer ul.menu-list li a:hover {
+    color: #f50354;
+}
+
+footer .contact-form input {
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form textarea {
+    border-radius: 20px;
+    height: 120px;
+    max-height: 200px;
+    min-height: 120px;
+    display: inline-block;
+    padding: 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form ::-webkit-input-placeholder { /* Edge */
+  color: #aaa;
+}
+footer .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+footer .contact-form ::placeholder {
+  color: #aaa;
+}
+
+footer .contact-form button.filled-button {
+    background-color: transparent;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+footer .contact-form button.filled-button:hover {
+    background-color: #fff;
+    color: #0400ff;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,573 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.active {
+    color: rgb(128, 0, 49);
+}
+
+p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a.filled-button {
+    background-color: #fc014c;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+a.filled-button:hover {
+    background-color: #fff;
+    color: #fd000d;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.section-heading em {
+    font-style: normal;
+    color: #f10418;
+}
+
+.section-heading span {
+    display: block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/* Header Style */
+.navbar {
+    padding: 15px 0px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.current,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+    color: #ff0000;
+    border-bottom: 3px solid #f80410;
+}
+
+#navbarResponsive {
+    z-index: 999;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    margin-top: 12px;
+    outline: none;
+}
+
+.navbar .navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0px 15px;
+}
+
+.navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.navbar .btn-danger {
+    background-color: red;
+    color: #f7f7f7;
+    border-radius: 30px;
+    border: 1px solid red;
+    margin-left: 10px;
+}
+
+.navbar .btn-primary {
+    background-color: rgb(255, 255, 255);
+    color: #ff0000;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.navbar .btn-danger:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: #f80000;
+    font-weight: bold;
+}
+
+.navbar .btn-primary:hover {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* carousel*/
+.carousel-item {
+    height: 800px;
+    object-fit: cover;
+}
+
+.carousel-item button {
+    margin-bottom: 200px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.carousel-caption p {
+    color: rgb(247, 245, 245);
+    font-style: italic;
+}
+
+.carousel-inner button {
+    background-color: red;
+    color: #f7f7f7;
+    border-radius: 30px;
+}
+
+.carousel-inner button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    color: #f80000;
+    font-weight: bold;
+}
+
+/* modal */
+.modal {
+    margin-top: 100px;
+}
+
+/* Our Services */
+
+.services {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.service-item img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.service-item .down-content {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+.service-item .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+.service-item .down-content p {
+    margin-bottom: 20px;
+}
+
+/* About Our Business */
+
+.fun-facts {
+    margin-top: 140px;
+    background-image: url(/Images/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    color: #fff;
+}
+
+.fun-facts span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.fun-facts h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.fun-facts em {
+    font-style: normal;
+    color: #f80000;
+}
+
+.fun-facts p {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.fun-facts .left-content {
+    text-align: center;
+}
+
+/* Footer Style */
+
+footer {
+    background-color: #232323;
+    padding: 80px 0px;
+    color: #fff;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-bottom: 35px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul.social-icons {
+    margin-top: 25px;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer ul.social-icons li:last-child {
+    margin-right: 0px;
+}
+
+footer ul.social-icons li a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    background-color: #fff;
+    color: #232323;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+footer ul.social-icons li a:hover {
+    background-color: #fa0000;
+}
+
+footer ul.menu-list li {
+    margin-bottom: 13px;
+}
+
+footer ul.menu-list li:last-child {
+    margin-bottom: 0px;
+}
+
+footer ul.menu-list li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+footer ul.menu-list li a:hover {
+    color: #f50354;
+}
+
+footer .contact-form input {
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #aaa !important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form textarea {
+    border-radius: 20px;
+    height: 120px;
+    max-height: 200px;
+    min-height: 120px;
+    display: inline-block;
+    padding: 15px;
+    color: #aaa !important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+footer .contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+}
+
+footer .contact-form ::-webkit-input-placeholder {
+    /* Edge */
+    color: #aaa;
+}
+
+footer .contact-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #aaa;
+}
+
+footer .contact-form ::placeholder {
+    color: #aaa;
+}
+
+footer .contact-form button.filled-button {
+    background-color: transparent;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+footer .contact-form button.filled-button:hover {
+    background-color: #fff;
+    color: #0400ff;
+}
+
+
+
+/* Sub-footer Style */
+
+.sub-footer {
+    background-color: #343434;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.sub-footer p {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+/* Responsive Style */
+@media (max-width: 768px) {
+    .sub-header {
+        display: none;
+    }
+
+    .Modern-Slider .item h6 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .Modern-Slider .item h4 {
+        margin-bottom: 25px;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+
+    .Modern-Slider .item p {
+        max-width: 570px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .Modern-Slider .NextArrow {
+        right: 5px;
+    }
+
+    .Modern-Slider .PrevArrow {
+        left: 5px;
+    }
+
+    .request-form {
+        text-align: center;
+    }
+
+    .request-form a.border-button {
+        float: none;
+        margin-top: 30px;
+    }
+
+    .services .service-item {
+        margin-bottom: 30px;
+    }
+
+    .fun-facts .left-content {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .more-info .right-content {
+        padding: 30px;
+    }
+
+    footer {
+        padding: 80px 0px 20px 0px;
+    }
+
+    footer .footer-item {
+        border-bottom: 1px solid #343434;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer .last-item {
+        border-bottom: none;
+    }
+
+    .about-info .right-content {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .team .team-item {
+        margin-bottom: 30px;
+    }
+
+    .tabs-content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .contact-item {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* Perubahan 010224*/
+
+.carousel-caption h5 {
+    font-size: 75px;
+}
+
+.carousel-caption.d-md-block {
+    height: 550px;
+}
+#btn-mobile{
+    display: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+@media screen and (max-width:768px) {
+    .carousel-caption h5 {
+        font-size: 40px;
+    }
+    .collapse {
+        display: flex;
+    }
+    ul.navbar-nav li{
+        margin-bottom: 5px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    ul.navbar-nav button.btn{
+       margin-bottom: 5px !important;
+       margin: 0 15px;
+    }
+  
+    #btn-mobile{
+        display: block;
+
+    }
+}
